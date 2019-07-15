@@ -8,3 +8,5 @@ spring:
       url: jdbc:mysql://localhost:3306/qf4?serverTimezone=UTC
       username: root
       password: 456123
+mybatis:
+  mapper-locations: classpath:mapping/*.xml

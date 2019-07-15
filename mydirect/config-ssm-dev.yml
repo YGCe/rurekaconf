@@ -1,0 +1,11 @@
+server:
+  port:
+    10002
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/qf4?serverTimezone=UTC
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package: com.eureka.ssm.pojo
